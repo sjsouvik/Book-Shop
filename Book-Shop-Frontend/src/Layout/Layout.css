@@ -1,0 +1,38 @@
+.layout {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  height: 100vh;
+  grid-template-rows: 10% auto 3%;
+}
+
+nav {
+  grid-area: header;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+li {
+  list-style: none;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.footer {
+  grid-area: footer;
+}

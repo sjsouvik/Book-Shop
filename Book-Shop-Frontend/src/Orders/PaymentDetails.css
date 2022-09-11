@@ -1,0 +1,55 @@
+.payment-method {
+  display: flex;
+}
+
+.payment-options {
+  margin-right: 20rem;
+}
+
+.payment-option {
+  margin-right: 2rem;
+}
+
+.card-details {
+  width: 30%;
+  margin: auto;
+}
+
+.card-details label {
+  display: inline-block;
+  text-align: left;
+  margin-right: 1rem;
+}
+
+.card-details input {
+  padding: 0.75rem;
+  border-width: 1px;
+}
+
+.card-details input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.card-details .input-field {
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.validate {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  border-color: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 100%;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.validate:disabled {
+  opacity: 0.5;
+}
